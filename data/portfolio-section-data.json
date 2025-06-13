@@ -1,0 +1,28 @@
+{
+  "title": "Portofolio Proyek",
+  "subtitle": "Lihat beberapa proyek unggulan yang telah kami selesaikan dengan standar kualitas tertinggi",
+  "projects": [
+    {
+      "image": "/placeholder.svg?height=600&width=800",
+      "title": "Gedung Perkantoran Modern",
+      "description": "Konstruksi gedung perkantoran 12 lantai dengan desain modern dan efisien energi di Jakarta.",
+      "detailsLink": "#"
+    },
+    {
+      "image": "/placeholder.svg?height=600&width=800",
+      "title": "Jembatan Penghubung",
+      "description": "Pembangunan jembatan penghubung antar pulau dengan teknologi terkini dan tahan gempa.",
+      "detailsLink": "#"
+    },
+    {
+      "image": "/placeholder.svg?height=600&width=800",
+      "title": "Perumahan Eksklusif",
+      "description": "Pengembangan kompleks perumahan eksklusif dengan fasilitas lengkap dan ramah lingkungan.",
+      "detailsLink": "#"
+    }
+  ],
+  "viewAllButton": {
+    "text": "Lihat Semua Proyek",
+    "href": "#"
+  }
+}

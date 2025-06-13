@@ -1,0 +1,13 @@
+{
+  "logo": {
+    "text": "Konstruko",
+    "highlight": "."
+  },
+  "navLinks": [
+    { "text": "Beranda", "href": "#beranda" },
+    { "text": "Tentang Kami", "href": "#tentang-kami" },
+    { "text": "Layanan", "href": "#layanan" },
+    { "text": "Portofolio", "href": "#portofolio" },
+    { "text": "Kontak", "href": "#kontak" }
+  ]
+}

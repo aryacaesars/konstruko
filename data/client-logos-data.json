@@ -1,0 +1,10 @@
+{
+  "title": "Dipercaya Oleh",
+  "logos": [
+    { "name": "Client 1", "logo": "/placeholder.svg?height=80&width=160" },
+    { "name": "Client 2", "logo": "/placeholder.svg?height=80&width=160" },
+    { "name": "Client 3", "logo": "/placeholder.svg?height=80&width=160" },
+    { "name": "Client 4", "logo": "/placeholder.svg?height=80&width=160" },
+    { "name": "Client 5", "logo": "/placeholder.svg?height=80&width=160" }
+  ]
+}

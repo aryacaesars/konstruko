@@ -1,0 +1,26 @@
+{
+  "title": "Layanan Kami",
+  "subtitle": "Kami menawarkan berbagai layanan konstruksi berkualitas tinggi untuk memenuhi kebutuhan proyek Anda",
+  "services": [
+    {
+      "icon": "building",
+      "title": "Konstruksi Gedung",
+      "description": "Membangun gedung komersial dan residensial dengan standar kualitas tertinggi dan teknologi modern."
+    },
+    {
+      "icon": "road",
+      "title": "Infrastruktur Jalan",
+      "description": "Mengembangkan infrastruktur jalan yang tahan lama dan efisien untuk menghubungkan komunitas."
+    },
+    {
+      "icon": "renovation",
+      "title": "Renovasi Bangunan",
+      "description": "Memberikan kehidupan baru pada struktur yang ada dengan renovasi yang inovatif dan efisien."
+    },
+    {
+      "icon": "project-management",
+      "title": "Manajemen Proyek",
+      "description": "Mengelola proyek konstruksi dari awal hingga akhir dengan efisiensi dan transparansi."
+    }
+  ]
+}
