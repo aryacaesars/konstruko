@@ -83,11 +83,11 @@ export default function ServicesSection() {
   ]
 
   return (
-    <section id="layanan" className="py-20 bg-white">
+    <section id="layanan" className="py-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Layanan Kami</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">Layanan Kami</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
             Kami menawarkan berbagai layanan konstruksi berkualitas tinggi untuk memenuhi kebutuhan proyek Anda
           </p>
         </div>
@@ -96,11 +96,11 @@ export default function ServicesSection() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-gray-100"
+              className="bg-card p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-border"
             >
-              <div className="text-[#4a6fa5] mb-4">{service.icon}</div>
-              <h3 className="text-xl font-bold mb-3">{service.title}</h3>
-              <p className="text-gray-600">{service.description}</p>
+              <div className="text-primary mb-4">{service.icon}</div>
+              <h3 className="text-xl font-bold mb-3 text-primary">{service.title}</h3>
+              <p className="text-muted-foreground">{service.description}</p>
             </div>
           ))}
         </div>

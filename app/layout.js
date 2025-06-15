@@ -3,7 +3,7 @@ import "./globals.css"
 export const metadata = {
   title: "Konstruko - Membangun Masa Depan yang Kokoh",
   description: "Perusahaan konstruksi terpercaya dengan standar kualitas tertinggi",
-    generator: 'v0.dev'
+    generator: 'devix'
 }
 
 export default function RootLayout({ children }) {

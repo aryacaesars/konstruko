@@ -26,16 +26,16 @@ export default function Navbar() {
       className={`fixed top-4 left-1/2 transform -translate-x-1/2 z-50 transition-all duration-300 rounded-full w-[95%] max-w-7xl ${
         scrolled
           ? "bg-white/80 backdrop-blur-md shadow-md"
-          : "bg-transparent border border-white"
+          : "bg-primary/90 backdrop-blur-md shadow-lg"
       }`}
     >
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <span className={`text-2xl font-bold ${scrolled ? "text-gray-900" : "text-white"}`}>
+              <span className={`text-2xl font-bold ${scrolled ? "text-gray-900" : "text-primary-foreground"}`}>
                 {navData.logo.text}
-                <span className="text-[#4a6fa5]">{navData.logo.highlight}</span>
+                <span className={`${scrolled ? "text-primary" : "text-white"}`}>{navData.logo.highlight}</span>
               </span>
             </Link>
           </div>
@@ -45,7 +45,7 @@ export default function Navbar() {
                 <li key={item.text}>
                   <Link
                     href={item.href}
-                    className={`${scrolled ? "text-gray-700" : "text-white"} hover:text-[#4a6fa5] font-medium transition-colors`}
+                    className={`${scrolled ? "text-gray-700" : "text-primary-foreground"} hover:text-primary font-medium transition-colors`}
                   >
                     {item.text}
                   </Link>
@@ -54,7 +54,7 @@ export default function Navbar() {
             </ul>
           </nav>
           <div className="md:hidden">
-            <button className={`${scrolled ? "text-gray-700" : "text-white"} hover:text-[#4a6fa5]`}>
+            <button className={`${scrolled ? "text-gray-700" : "text-primary-foreground"} hover:text-primary`}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

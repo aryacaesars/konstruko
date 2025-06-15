@@ -39,8 +39,6 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
         montserrat: ["Montserrat", "sans-serif"],
-        primary: "#4a6fa5",
-        "primary-dark": "#3a5a8a",
       },
       borderRadius: {
         lg: "var(--radius)",
